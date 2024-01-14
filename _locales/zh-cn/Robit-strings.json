@@ -5,7 +5,7 @@
   "Robit.RGB_Car_Program|block": "小车RGB尾灯",
   "Robit.RGB_Car_Big|block": "小车RGB探照灯|选择探照灯颜色 %value",
   "Robit.RGB_Car_Big2|block": "小车RGB探照灯|红色 %value1|绿色 %value2|蓝色 %value3",
-  "Robit.Music_Car|block": "小车音乐播放|%index",
+  "Robit.Music_Car|block": "小车播放音乐|%index",
   "Robit.Voice_Sensor|block": "声音传感器返回",
   "Robit.Line_Sensor|block": "循迹传感器|位置 %direct|检测到 %value",
   "Robit.CarCtrl|block": "小车控制|%index",
