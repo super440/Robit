@@ -12,7 +12,7 @@ namespace Robit {
     const MOTOR = 0x02
     const RGB = 0x01
     
-    let RoBitStrip: neopixel.Strip;
+    let RobitStrip: neopixel.Strip;
 
     export enum enColor {
 
@@ -188,10 +188,10 @@ namespace Robit {
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
     export function RGB_Car_Program(): neopixel.Strip {
          
-        if (!RoBitStrip) {
-            RoBitStrip = neopixel.create(DigitalPin.P12, 2, NeoPixelMode.RGB);
+        if (!RobitStrip) {
+            RobitStrip = neopixel.create(DigitalPin.P12, 2, NeoPixelMode.RGB);
         }
-        return RoBitStrip;  
+        return RobitStrip;  
     }  
 
     //% blockId=Robit_RGB_Car_Big block="RGB_Car_Big|value %value"
